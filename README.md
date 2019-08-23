@@ -35,9 +35,17 @@ $ go get -u github.com/golang/protobuf/protoc-gen-go
 
 # Build and run
 
+Build
 ```
+$ export GO111MODULE=on
 $ go mod init github.com/rodrigovdb/microservices-blog
 $ go get -u
+```
+
+Run
+```
+$ cd consignment-service
+$ go run main.go
 ```
 
 # References
