@@ -1,4 +1,6 @@
-# Protobuf
+# Dependencies
+
+## Protobuf
 
 It's possible install via APT using
 ```
@@ -24,9 +26,20 @@ $ rm -rf protobuf-<version>
 
 More about protobuf instalation check [here](https://github.com/protocolbuffers/protobuf/blob/master/src/README.md)
 
-# gRPC
+## gRPC
 
 ```
 $ go get -u google.golang.org/grpc
 $ go get -u github.com/golang/protobuf/protoc-gen-go
 ```
+
+# Build and run
+
+```
+$ go mod init github.com/rodrigovdb/microservices-blog
+$ go get -u
+```
+
+# References
+
+* https://ewanvalentine.io/microservices-in-golang-part-1/
